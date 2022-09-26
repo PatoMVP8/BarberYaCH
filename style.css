@@ -1,3 +1,11 @@
+/*reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
 .header-container{
     background-color: #B7C4CF;
     display: flex;
@@ -25,6 +33,11 @@
     font-size: 30px;   
 }
 
+/* HEADER */
+
+
+
+
 /* main */
 
 .main-container{
@@ -43,6 +56,117 @@
     width: 650px;
     height: 500px;
 }
+
+
+/* INFO */
+
+.section-container{ 
+    color: black;
+    background-color:#EEE3CB ;
+}
+
+.barberfeliz{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+
+.subtituloinfo{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.info{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 45px;
+    margin-right: 90px;
+    }
+
+/* INFO */
+
+
+
+/* NOSOTROS */
+
+.equipo{
+    background-color:#EEE3CB ;
+    text-align: center;
+}
+
+.fotos{
+    width: 250px;
+    height: 250px;
+    
+}
+
+/* NOSOTROS */
+
+
+
+/* FAQs */
+
+.preguntas{
+    text-align: center;
+    background-color:#EEE3CB ;
+    }
+
+.pregunta{
+    background-color: #EEE3CB;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.respuesta{
+    font-family:Helvetica;
+    font-size: 15px;
+
+}
+
+.costado{
+
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    
+}
+
+.subtitulofaqs{
+    background-color:#EEE3CB ;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial;
+    
+    
+
+}
+
+
+/* FAQs */
+
+
+
+
+
+
 
 
 
