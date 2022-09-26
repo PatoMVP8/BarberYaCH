@@ -1,0 +1,106 @@
+.header-container{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.logo{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 95px;
+}
+
+.logo2{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 95px;
+}
+
+
+.navegador{
+    font-size: 30px;   
+}
+
+
+
+/* footer */
+
+.footer-container{
+    background-color: darkgray;
+}
+
+
+.mdp{
+    font-family: Helvetica;
+    
+     display: flex;
+     justify-content: center;
+}
+
+.medios{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.ordenlista{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.redes{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 60px;
+    height: 60px;
+}
+
+.barberpole{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+/* mobile */
+@media only screen and (max-width:450px){
+body{
+    font-size: 10 px;
+}
+.footer-container{
+    font-size: 10 px;
+}
+.logo2{
+    display: none;
+}
+}
+
+/* tablet */
+
+@media only screen and (min-width:451px) and (max-width:991px) {
+body{
+    font-size: 20px;
+}
+.footer-container{
+    font-size: 20 px;
+}
+.logo2{
+    display: none;
+}
+}
+
+@media only screen and (min-width:992px){
+    body{
+        font-size: 28px;
+    }
+    .footer-container{
+        font-size: 28 px;
+    }
+}
