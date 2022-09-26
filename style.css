@@ -1,5 +1,5 @@
 .header-container{
-    background-color: darkgray;
+    background-color: #B7C4CF;
     display: flex;
     justify-content: space-around;
 }
@@ -25,18 +25,37 @@
     font-size: 30px;   
 }
 
+/* main */
+
+.main-container{
+    background-color:#EEE3CB ;
+}
+
+.texto-inicio{
+    margin-top: 175px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.granlogo{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 650px;
+    height: 500px;
+}
+
 
 
 /* footer */
 
 .footer-container{
-    background-color: darkgray;
+    background-color: #D7C0AE ;
 }
 
 
 .mdp{
+    font-size: 30px;
     font-family: Helvetica;
-    
      display: flex;
      justify-content: center;
 }
@@ -48,6 +67,7 @@
     height: 70px;
     text-align: center;
 }
+
 
 .ordenlista{
     display: flex;
@@ -71,8 +91,9 @@
 
 /* mobile */
 @media only screen and (max-width:450px){
-body{
-    font-size: 10 px;
+.texto-inicio{
+    font-size: 8 px;
+    text-align: center;
 }
 .footer-container{
     font-size: 10 px;
@@ -80,13 +101,21 @@ body{
 .logo2{
     display: none;
 }
+.granlogo{
+    width:500px ;
+    height: 400px ;
 }
+.arg{
+    height: 300px;
+}
+
 
 /* tablet */
 
 @media only screen and (min-width:451px) and (max-width:991px) {
-body{
-    font-size: 20px;
+.texto-inicio{
+    font-size: 16px;
+    text-align: center;
 }
 .footer-container{
     font-size: 20 px;
@@ -94,13 +123,26 @@ body{
 .logo2{
     display: none;
 }
+.granlogo{
+    width: 1000px ;
+    height: 500px;
+    
+}
+.arg{
+    height: 100px;
+    width: 500px;
+}
+
 }
 
 @media only screen and (min-width:992px){
-    body{
+    .texto-inicio{
         font-size: 28px;
     }
-    .footer-container{
-        font-size: 28 px;
+    .arg{
+        width: 650px;
+        height: 500px;
     }
+    
+}
 }
