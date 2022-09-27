@@ -128,8 +128,7 @@
     font-family: Helvetica;
     font-size: 30px;
     font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    
 }
 
 .respuesta{
@@ -144,6 +143,7 @@
     justify-content: space-between;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+
     
 }
 
