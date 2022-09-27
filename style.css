@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
 /* HEADER */
 
 .header-container{
@@ -63,6 +76,7 @@
 .section-container{ 
     color: black;
     background-color:#EEE3CB ;
+    
 }
 
 .barberfeliz{
@@ -114,6 +128,33 @@
 
 /* NOSOTROS */
 
+/* contactos */
+
+.carousel-container{
+    background-color: #EEE3CB;
+}
+
+.carousel{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.tituloc{
+    color: black;
+    font-size: 20px;
+}
+
+.subtituloc{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* contactos */
 
 
 /* FAQs */
@@ -174,6 +215,7 @@
 
 .footer-container{
     background-color: #D7C0AE ;
+    
 }
 
 
@@ -267,6 +309,7 @@
         width: 650px;
         height: 500px;
     }
+    
     
 }
 }
