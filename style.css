@@ -50,9 +50,9 @@
 }
 
 .texto-inicio{
-    margin-top: 175px;
+    margin-top: 100px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .granlogo{
@@ -150,6 +150,8 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 /* contactos */
 
@@ -305,12 +307,9 @@
     height: 100px;
     width: 500px;
 }
-.carousel{
-    
-    height: 350px;
-    width: 350x;
-    
-    
+.carousel-todo{
+    width: 300px;
+    height: 300px;
 }
 
 
