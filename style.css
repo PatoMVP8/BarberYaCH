@@ -50,7 +50,7 @@
 }
 
 .texto-inicio{
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 100px;
@@ -63,7 +63,6 @@
     width: 650px;
     height: 500px;
 }
-
 
 /* INFO */
 
@@ -271,8 +270,6 @@
     
     height: 300px;
     width: 300px;
-    
-    
 }
 
 
