@@ -1,3 +1,37 @@
+.header-container {
+  background-color: #B7C4CF;
+  display: flex;
+  justify-content: space-around;
+}
+.header-container .navbar .container-fluid .navbar-brand .logo {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 150px;
+  height: 95px;
+}
 
+.footer-container {
+  background-color: #D7C0AE;
+}
+.footer-container .mdp {
+  font-size: 30px;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+}
+.footer-container .mdp .orden-lista {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+.footer-container .mdp .orden-lista .medios {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
