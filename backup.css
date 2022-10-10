@@ -40,10 +40,10 @@
 /* main */
 
 .main-container{
-    background-color:#EEE3CB ;
+    background-color:#EEE3CB
 }
 
-.texto-inicio{
+.col-lg-6{
     margin-top: 50px;
     font-weight: bold;
     font-size: 25px;
@@ -250,9 +250,7 @@
 .footer-container{
     font-size: 10 px;
 }
-.logo2{
-    display: none;
-}
+
 .granlogo{
     width:500px ;
     height: 400px ;
@@ -260,11 +258,10 @@
 .arg{
     height: 300px;
 }
-.carousel{
-    
-    height: 300px;
-    width: 300px;
+.costado{
+    display: none;
 }
+
 
 
 /* tablet */
@@ -277,9 +274,7 @@
 .footer-container{
     font-size: 20 px;
 }
-.logo2{
-    display: none;
-}
+
 .granlogo{
     width: 1000px ;
     height: 500px;
