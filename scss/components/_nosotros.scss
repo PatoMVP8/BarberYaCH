@@ -1,7 +1,9 @@
+@import '../base/variables';
+
 //    nosotros
 
 .equipo{
-    background-color:#EEE3CB ;
+    background-color:$bg-color-cuerpo ;
     text-align: center;
     margin: 0;
     .estructura{
@@ -14,7 +16,7 @@
 }
 .datos{
     margin: 0 auto;
-    color: black;
+    color: $font-color;
     font-weight: bold;
     padding: 10px;
     font-size: 25px;

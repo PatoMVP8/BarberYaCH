@@ -1,9 +1,12 @@
+@import '../base/variables';
+@import '../base/listas';
+
 // informacion
 
 
 .section-container{
-    color: black;
-    background-color:#EEE3CB ;
+    color:$font-color;
+    background-color:$bg-color-cuerpo;
     .barberfeliz{
         filter: brightness(1.1);
         mix-blend-mode: multiply;
@@ -17,18 +20,18 @@
 }
 
 .subtituloinfo{
-    color: black;
+    color: $font-color;
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    font-family: Arial;
+    font-family: nth($fuentes, 1 );
     text-align: center;
     margin-left: 20px;
     
 }
 
 .info{
-    color: black;
+    color: $font-color;
     font-size: 40px;
     margin-left: 45px;
     margin-right: 90px;

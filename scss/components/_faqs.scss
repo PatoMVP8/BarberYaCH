@@ -1,31 +1,40 @@
+@import '../base/variables';
+@import '../base/listas';
+
 // faqs
 
 .subtitulofaqs{
-    background-color:#EEE3CB ;
-    color: black;
+    background-color: $bg-color-cuerpo ;
+    color: $font-color;
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    font-family: Arial;
+    font-family: nth($fuentes, 2 );
 }
 .preguntas{
     text-align: center;
-    background-color:#EEE3CB ;
-    .pregunta{background-color: #EEE3CB;
-        font-family: Helvetica;
-        font-size: 30px;
+    background-color:$bg-color-cuerpo ;
+    .pregunta{background-color:$bg-color-cuerpo;
+        font-family: nth($fuentes,1);
+        font-size: 50px;
         font-weight: bold;
         
     }
 }
 .respuesta{
-    font-family:Helvetica;
-    font-size: 15px;
+    font-family: nth($fuentes,1);
+    font-size: 25px;
 }
 .costado{
 
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
     filter: brightness(1.1);
     mix-blend-mode: multiply;   
+    @media screen and (max-width:450px) {
+        display: none;   
+       }
+
+    @media screen and (min-width:451px) and (max-width:1148px) {
+        display: none; 
+    }
 }

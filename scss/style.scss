@@ -5,11 +5,12 @@
 @import 'components/informacion';
 @import 'components/nosotros';
 @import 'base/estilosGenerales';
+@import 'base/listas.scss';
 
 // index
 
 .main-container{
-    background-color:#EEE3CB ;
+    background-color: $bg-color-cuerpo  ;
 
     .container{
         
@@ -19,8 +20,32 @@
                 mix-blend-mode: multiply;
                 width: 650px;
                 height: 500px;
+                @media screen and (max-width:450px){
+                    width:500px ;
+                    height: 400px ;
+                }
+                @media screen and (min-width:451px) and (max-width:991px){
+                    width: 1000px;
+                    height: 500px;
+                }
+ 
+    
+                     }
             }
           }
+        }
+    
+
+    .arg{
+        margin-bottom: 15px;
+        @media screen and (max-width:450px){
+            height: 300px;
+            width: 100%;
+            
+        }
+        @media screen and (min-width:451px) and (max-width:991px){
+            height: 100px;
+            width: 500px;
         }
     }
     
@@ -29,7 +54,19 @@
         margin-top: 50px;
         font-weight: bold;
         font-size: 25px;
-            margin-bottom: 100px;}
+        margin-bottom: 100px;
+        
+        @media screen and (max-width:450px){
+            font-size: 10 px;
+            text-align: center;
+        }
+
+        @media screen and (min-width:451px) and (max-width:991px) {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        }
 
 // index
 
