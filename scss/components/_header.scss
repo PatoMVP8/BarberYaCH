@@ -1,0 +1,27 @@
+@import '../base/variables';
+
+// header
+
+
+.header-container{
+    background-color:#B7C4CF ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 37px;
+  .navbar{
+    .container-fluid{
+        .navbar-brand{
+            .logo{
+                filter: brightness(1.1);
+                mix-blend-mode: multiply;
+                width: 150px;
+                height: 95px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// header

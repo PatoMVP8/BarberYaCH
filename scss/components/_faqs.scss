@@ -1,0 +1,31 @@
+// faqs
+
+.subtitulofaqs{
+    background-color:#EEE3CB ;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial;
+}
+.preguntas{
+    text-align: center;
+    background-color:#EEE3CB ;
+    .pregunta{background-color: #EEE3CB;
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+}
+.respuesta{
+    font-family:Helvetica;
+    font-size: 15px;
+}
+.costado{
+
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;   
+}
