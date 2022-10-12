@@ -36,6 +36,13 @@
     margin-left: 45px;
     margin-right: 90px;
     margin-bottom: 0;
+    @media screen and (max-width:450px) {
+        font-size: 30px;   
+       }
+       @media screen and (min-width:451px) and (max-width:991px){
+        font-size: 35px;
+     }
+
     }
 
     // informacion
