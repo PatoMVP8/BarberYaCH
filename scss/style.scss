@@ -44,8 +44,11 @@
             
         }
         @media screen and (min-width:451px) and (max-width:991px){
-            height: 100px;
-            width: 500px;
+            height: 300px;
+            width: 400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
         }
     }
     
