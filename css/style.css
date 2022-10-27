@@ -134,8 +134,9 @@
 }
 
 .info {
+  font-weight: bold;
+  font-size: 35px;
   color: black;
-  font-size: 40px;
   margin-left: 45px;
   margin-right: 90px;
   margin-bottom: 0;
